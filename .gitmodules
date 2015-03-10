@@ -1,0 +1,3 @@
+[submodule "Horizon"]
+	path = Horizon
+	url = https://github.com/StevenThuriot/Horizon.git
