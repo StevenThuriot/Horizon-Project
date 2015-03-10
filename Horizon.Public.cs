@@ -20,8 +20,8 @@
 
 namespace Horizon
 {
-	public static partial class TypeInfo { }
-	public static partial class TypeInfo<T> { }
+	public partial class TypeInfo { }
+	public partial class TypeInfo<T> { }
 	public partial class MethodCaller { }
 	public partial class SimpleParameterInfo { }
 }
