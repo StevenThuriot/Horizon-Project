@@ -22,6 +22,5 @@ namespace Horizon
 {
 	public partial class TypeInfo { }
 	public partial class TypeInfo<T> { }
-	public partial class MethodCaller { }
-	public partial class SimpleParameterInfo { }
+	public partial interface ICaller { }
 }
