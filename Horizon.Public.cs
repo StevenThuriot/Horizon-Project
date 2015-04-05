@@ -1,4 +1,4 @@
-﻿namespace Horizon
+namespace Horizon
 {
 	public partial class TypeInfo { }
 	public partial class TypeInfo<T> { }
