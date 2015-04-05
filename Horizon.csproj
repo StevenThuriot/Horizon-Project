@@ -48,6 +48,8 @@
     <Compile Include="Horizon\CallerSelector.cs" />
     <Compile Include="Horizon\Constants.cs" />
     <Compile Include="Horizon\ConstructorCaller.cs" />
+    <Compile Include="Horizon\ExtendedTypeInfo.AutoResolve.cs" />
+    <Compile Include="Horizon\ExtendedTypeInfo.cs" />
     <Compile Include="Horizon\GenericMethodCaller.cs" />
     <Compile Include="Horizon\GenericType.cs" />
     <Compile Include="Horizon\ICaller.cs" />
