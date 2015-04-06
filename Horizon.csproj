@@ -48,11 +48,13 @@
     <Compile Include="Horizon\CallerSelector.cs" />
     <Compile Include="Horizon\Constants.cs" />
     <Compile Include="Horizon\ConstructorCaller.cs" />
+    <Compile Include="Horizon\EventCaller.cs" />
     <Compile Include="Horizon\ExtendedTypeInfo.AutoResolve.cs" />
     <Compile Include="Horizon\ExtendedTypeInfo.cs" />
     <Compile Include="Horizon\GenericMethodCaller.cs" />
     <Compile Include="Horizon\GenericType.cs" />
     <Compile Include="Horizon\ICaller.cs" />
+    <Compile Include="Horizon\IEventCaller.cs" />
     <Compile Include="Horizon\IInternalCaller.cs" />
     <Compile Include="Horizon\InvokeHelper.cs" />
     <Compile Include="Horizon\InvokeHelper.g.cs">
@@ -61,6 +63,7 @@
       <DependentUpon>InvokeHelper.tt</DependentUpon>
     </Compile>
     <Compile Include="Horizon\MethodCaller.cs" />
+    <Compile Include="Horizon\NullCaller.cs" />
     <Compile Include="Horizon\Reference.cs" />
     <Compile Include="Horizon\SelectableArgument.cs" />
     <Compile Include="Horizon\SimpleParameterInfo.cs" />
