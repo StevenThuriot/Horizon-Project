@@ -44,50 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Horizon\Argument.cs" />
-    <Compile Include="Horizon\CallerSelector.cs" />
-    <Compile Include="Horizon\Constants.cs" />
-    <Compile Include="Horizon\ConstructorCaller.cs" />
-    <Compile Include="Horizon\EventCaller.cs" />
-    <Compile Include="Horizon\ExtendedTypeInfo.AutoResolve.cs" />
-    <Compile Include="Horizon\ExtendedTypeInfo.cs" />
-    <Compile Include="Horizon\GenericMethodCaller.cs" />
-    <Compile Include="Horizon\GenericType.cs" />
-    <Compile Include="Horizon\ICaller.cs" />
-    <Compile Include="Horizon\IEventCaller.cs" />
-    <Compile Include="Horizon\IInternalCaller.cs" />
-    <Compile Include="Horizon\InvokeHelper.cs" />
-    <Compile Include="Horizon\InvokeHelper.g.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>InvokeHelper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Horizon\MethodCaller.cs" />
-    <Compile Include="Horizon\NullCaller.cs" />
-    <Compile Include="Horizon\Reference.cs" />
-    <Compile Include="Horizon\SelectableArgument.cs" />
-    <Compile Include="Horizon\SimpleParameterInfo.cs" />
-    <Compile Include="Horizon\TypeHash.cs" />
-    <Compile Include="Horizon\TypeInfo.AutoResolve.cs" />
-    <Compile Include="Horizon\TypeInfo.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Horizon.Public.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Horizon\InvokeHelper.tt">
+    <Compile Include="**\*.cs" Exclude="**\*.g.cs" />
+    <Content Include="**\*.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>InvokeHelper.g.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>
