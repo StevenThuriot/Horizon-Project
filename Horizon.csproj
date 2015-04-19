@@ -45,8 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="**\*.cs" Exclude="**\*.g.cs;**\TemporaryGeneratedFile*.cs" />
+    <Compile Include="Horizon\InvokeHelper.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvokeHelper.tt</DependentUpon>
+    </Compile>
     <Content Include="**\*.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>InvokeHelper.g.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
