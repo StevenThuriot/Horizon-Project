@@ -1,8 +1,8 @@
 namespace Horizon
 {
-    public partial class TypeInfo { }
+    public partial class Info { }
 
-    public partial class TypeInfo<T> { }
+    public partial class Info<T> { }
 
     public partial class SimpleParameterInfo { }
 
