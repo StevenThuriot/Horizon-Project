@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22609.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horizon", "Horizon.csproj", "{52E58EF9-092F-415D-BF1E-8A2E99AF41CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4577E497-BB1D-4E7F-8520-49E7A216FE1E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Horizon", "Horizon\Horizon.shproj", "{659F049F-2F56-4BA3-9009-739704AADB18}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Horizon\Horizon.projitems*{52e58ef9-092f-415d-bf1e-8a2e99af41cd}*SharedItemsImports = 4
+		Horizon\Horizon.projitems*{659f049f-2f56-4ba3-9009-739704aadb18}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -18,5 +26,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{659F049F-2F56-4BA3-9009-739704AADB18} = {4577E497-BB1D-4E7F-8520-49E7A216FE1E}
 	EndGlobalSection
 EndGlobal
